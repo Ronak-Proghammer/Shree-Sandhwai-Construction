@@ -70,7 +70,6 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 70px;
 }
 
 .section-header h2 {
@@ -1196,12 +1195,12 @@ section {
   margin: 30px 0;
 }
 
-@media (min-width: 991px) {
+/* @media (min-width: 991px) {
   .about h2 {
     max-width: 65%;
     margin: 0 0 80px 0;
   }
-}
+} */
 
 .about .our-story {
   padding: 40px;
@@ -1210,7 +1209,8 @@ section {
 
 @media (min-width: 991px) {
   .about .our-story {
-    padding-right: 35%;
+    padding-right: 15%;
+    font-size: 18px;
   }
 }
 
@@ -1267,7 +1267,7 @@ section {
 }
 
 .about .about-img {
-  min-height: 600px;
+  background-size: contain;
   background-size: cover;
   background-position: center;
 }
@@ -2789,6 +2789,14 @@ section {
 
 @media (max-width: 991px) {
   .about-img {
-    display: none;
+    /* display: none; */
   }
+}
+
+.about-img{
+  height: 100%;
+}
+
+.about-img img{
+  height: 100%;
 }
